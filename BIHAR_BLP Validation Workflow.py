@@ -6,11 +6,11 @@ from concurrent.futures import ThreadPoolExecutor
 # PostgreSQL Connection
 # =========================================================
 DB_CONFIG = {
-    'host': 'wfms-psql-db1.crooayy8e4dr.ap-south-1.rds.amazonaws.com',
+    'host': 'your_host',
     'port': '5432',
-    'database': 'nbpdcl_db',
-    'user': 'admin_swamy',
-    'password': 'SwM@!2025#RtXy9'
+    'database': 'your database name',
+    'user': 'username',
+    'password': 'your_password'
 }
 
 # =========================================================
